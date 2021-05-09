@@ -1,22 +1,22 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "aleahy/laravel-blade-components",
+    "description": "Blade components for use in Laravel projects",
     "keywords": [
-        ":vendor_name",
+        "aleahy",
         "laravel",
-        "package_slug"
+        "laravel-blade-components"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/aleahy/laravel-blade-components",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Alexander Leahy",
+            "email": "alex@languagetub.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.4|^8.0",
         "spatie/laravel-package-tools": "^1.4.3",
         "illuminate/contracts": "^8.37"
     },
@@ -30,13 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Aleahy\\LaravelBladeComponents\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Aleahy\\LaravelBladeComponents\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,11 +49,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
-            ],
-            "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
-            }
+                "Aleahy\\LaravelBladeComponents\\LaravelBladeComponentsServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
