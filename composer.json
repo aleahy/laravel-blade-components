@@ -1,6 +1,6 @@
 {
     "name": "aleahy/laravel-blade-components",
-    "description": "Blade components for use in Laravel projects",
+    "description": "Blade components for use in Livewire Laravel projects",
     "keywords": [
         "aleahy",
         "laravel",
