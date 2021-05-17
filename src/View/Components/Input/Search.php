@@ -3,7 +3,6 @@
 
 namespace Aleahy\LaravelBladeComponents\View\Components\Input;
 
-
 class Search extends \Illuminate\View\Component
 {
 

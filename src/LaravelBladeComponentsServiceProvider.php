@@ -6,8 +6,8 @@ use Aleahy\LaravelBladeComponents\View\Components\DataItem;
 use Aleahy\LaravelBladeComponents\View\Components\Input\Search;
 use Aleahy\LaravelBladeComponents\View\Components\Select\LabelledSelect;
 use Aleahy\LaravelBladeComponents\View\Components\Table\Cell;
-use Aleahy\LaravelBladeComponents\View\Components\Table\Table;
 use Aleahy\LaravelBladeComponents\View\Components\Table\HeaderCell;
+use Aleahy\LaravelBladeComponents\View\Components\Table\Table;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
