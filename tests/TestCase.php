@@ -2,9 +2,8 @@
 
 namespace Aleahy\LaravelBladeComponents\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Aleahy\LaravelBladeComponents\LaravelBladeComponentsServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

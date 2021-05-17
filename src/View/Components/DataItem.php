@@ -3,7 +3,6 @@
 
 namespace Aleahy\LaravelBladeComponents\View\Components;
 
-
 class DataItem extends \Illuminate\View\Component
 {
     /**

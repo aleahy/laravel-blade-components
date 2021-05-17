@@ -3,7 +3,6 @@
 
 namespace Aleahy\LaravelBladeComponents\View\Components\Table;
 
-
 class Cell extends \Illuminate\View\Component
 {
 

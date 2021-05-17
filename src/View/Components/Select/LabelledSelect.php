@@ -3,7 +3,6 @@
 
 namespace Aleahy\LaravelBladeComponents\View\Components\Select;
 
-
 class LabelledSelect extends \Illuminate\View\Component
 {
     public string $label;
